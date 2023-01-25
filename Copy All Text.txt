@@ -1,13 +1,13 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-local PhantomForcesWindow = Library:NewWindow("Arsenal Bloxy V2")
+local PhantomForcesWindow = Library:NewWindow("Demon Gamez Arsenal v2")
 
 local KillingCheats = PhantomForcesWindow:NewSection("Combat")
 
 KillingCheats:CreateButton("Silent Aim", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
 Title = "Silent aim has been executed",
-Text = "gg you made it", 
+Text = "silent aim executed", 
 
 Duration = 5
 })
