@@ -1,0 +1,172 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local Win1 = DiscordLib:Window("youhub") -- Title/Name
+
+local Tab1 = Win1:Server("Main", "") -- Server/Tab
+
+local Tab2 = Win1:Server("Games & Scripts", "") -- Server/Tab
+
+local Chann1 = Tab1:Channel("Main") -- Channel
+
+local Chann2 = Tab2:Channel("Arsenal") -- Channel
+
+local Chann3 = Tab2:Channel("Inf Yield") -- Channel
+
+local Chann4 = Tab2:Channel("Chaos") -- Channel
+
+local Chann5 = Tab2:Channel("Prison Life") -- Channel
+
+local Chann6 = Tab2:Channel("Fly") -- Channel
+
+local Chann7 = Tab2:Channel("Bedwars") -- Channel
+
+local Chann8 = Tab2:Channel("Animations") -- Channel
+
+local Chann9 = Tab2:Channel("Mm2") -- Channel
+
+local Chann10 = Tab2:Channel("Blox Fruits") -- Channel
+
+local Chann11 = Tab2:Channel("Game Scripts") -- Channel
+
+Chann1:Button("copy my second discord server link", function()
+DiscordLib:Notification("Notification", "Copied to your clipboard", "Okay!") -- The Button Executes
+setclipboard("https://discord.gg/5HYMksk9vT")
+end)
+
+Chann2:Button("Arsenal Panda Hub", function()
+DiscordLib:Notification("Notification", "Arsenal Panda Hub Script Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/boomrelease/main/ArsenalFirstRelease.lua", true))()
+end)
+
+Chann2:Button("Arsenal Darkrai X", function()
+DiscordLib:Notification("Notification", "Arsenal Darkrai X Script Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Arsenal/MainFile"))()
+end)
+
+Chann2:Button("Arsenal OP Script", function()
+DiscordLib:Notification("Notification", "Arsenal PWNERHUB Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
+end)
+
+
+Chann3:Button("Inf Yield", function()
+DiscordLib:Notification("Notification", "Inf Yield Script Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+Chann4:Button("Chaos Script", function()
+DiscordLib:Notification("Notification", "Chaos Script Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1111-ssss/Chaos_Script/main/Chaos_script.txt'))()
+end)
+
+Chann4:Button("Chaos Script 2", function()
+DiscordLib:Notification("Notification", "Chaos Script 2 Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ShadowPlayzYT22/Roblox-loadstring-generator/main/Kill%20all(2).txt"))()
+end)
+
+Chann5:Button("Prison Life Septex  Admin", function()
+DiscordLib:Notification("Notification", "Prison Life Septex Admin Script Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+
+Chann5:Button("Prison Life Admin", function()
+DiscordLib:Notification("Notification", "Prison Life Script Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet('https://pastebin.com/raw/VHnxgyBQ'))()
+end)
+
+Chann6:Button("Fly V3 Script", function()
+DiscordLib:Notification("Notification", "Fly V3 Script Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet('https://pastebin.com/raw/e1xDbz7t'))()
+end)
+
+Chann7:Button("Bedwars Pot Hub", function()
+DiscordLib:Notification("Notification", "Bedwars Pothub Script Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Tubers39/6324c8bc8800c3ede3306095085401ae/raw/b16a421c9a1a50ab819b23743ac056604d0927e0/PoTHUB", true))()
+end)
+
+Chann7:Button("Vape", function()
+DiscordLib:Notification("Notification", "Vape Bedwars Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Infinite Jumps and Vape";
+    Text = "Mixed by JN HH Gaming"; -- what the text says (ofc)
+    Duration = 30;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Enjoy";
+    Text = "Don't Forget to Subscribe JN HH Gaming"; -- what the text says (ofc)
+    Duration = 30;
+})
+end)
+
+Chann8:Button("Animation Hub", function()
+DiscordLib:Notification("Notification", "Pendulum Hub Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end)
+
+Chann9:Button("Mm2 Owl Hub", function()
+DiscordLib:Notification("Notification", "Mm2 Owl Hub Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+Chann10:Button("Blox fruit max level script", function()
+DiscordLib:Notification("Notification", "Max level has been Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/MaxFast"))()
+end)
+
+Chann11:Button("Games Script", function()
+DiscordLib:Notification("Notification", "Games script Executed", "Okay!") -- The Button Executes
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lynch1720/LynchHub/main/4thUpdate'))() 
+end)
+
+Chann1:Seperator() -- A Channel Seperator
+
+Chann1:Label("credits to my helper jn hh gaming.") -- A Label 
+
+Chann2:Seperator() -- A Channel Seperator
+
+Chann2:Label("scripts for arsenal") -- A Label
+
+Chann3:Seperator() -- A Channel Seperator
+
+Chann3:Label("Inf Yield Script") -- A Label
+
+Chann4:Seperator() -- A Channel Seperator
+
+Chann4:Label("scripts for chaos") -- A Label
+
+Chann5:Seperator() -- A Channel Seperator
+
+Chann5:Label("scripts for prison life") -- A Label
+
+Chann6:Seperator() -- A Channel Seperator
+
+Chann6:Label("fly scripts") -- A Label
+
+Chann7:Seperator() -- A Channel Seperator
+
+Chann7:Label("scripts for bedwars") -- A Label
+
+Chann8:Seperator() -- A Channel Seperator
+
+Chann8:Label("animation scripts.") -- A Label
+
+Chann9:Seperator() -- A Channel Seperator
+
+Chann9:Label("mm2 script.") -- A Label
+
+Chann10:Seperator() -- A Channel Seperator
+
+Chann10:Label("Blox Fruit script.") -- A Label
+
+Chann11:Seperator() -- A Channel Seperator
+
+Chann11:Label("Games script.") -- A Label
