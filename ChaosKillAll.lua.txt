@@ -1,15 +1,3 @@
-if KillAll then KillAll() end
-
-local Run = true
-
-local KillAll = setmetatable(configs or {
-    whitelist = {},
-    AutoToxic = true,
-    ResponseList = {"<user> is such a noob","Imagine dying <user>","lol <user> just died","Alt F4 already <user>"}
-},{__call = function()
-    Run = false
-end})
-
 getgenv().KillAll = KillAll
 
 local cloneref = cloneref or function(obj) return obj end
