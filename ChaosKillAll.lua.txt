@@ -2,10 +2,19 @@ if KillAll then KillAll() end
 
 local Run = true
 
+local KillAll = setmetatable(configs or {
+    whitelist = {},
+    AutoToxic = true,
+    ResponseList = {"","","",""}
+},{__call = function()
+    Run = false
+end})
+
 getgenv().KillAll = KillAll
 
 local cloneref = cloneref or function(obj) return obj end
 
+local SayMessageRequest = cloneref(game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"))
 local Players = cloneref(game:GetService("Players"))
 local lp = cloneref(Players.LocalPlayer)
 
