@@ -4,7 +4,7 @@ local Run = true
 
 local KillAll = setmetatable(configs or {
     whitelist = {},
-    AutoToxic = true,
+    AutoToxic = false,
     ResponseList = {"###","###","###","###"}
 },{__call = function()
     Run = false
