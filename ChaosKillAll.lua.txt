@@ -1,6 +1,6 @@
 if KillAll then KillAll() end
 
-local Run = true
+local Run = false
 
 local KillAll = setmetatable(configs or {
     whitelist = {},
