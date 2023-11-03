@@ -6,7 +6,6 @@ getgenv().KillAll = KillAll
 
 local cloneref = cloneref or function(obj) return obj end
 
-local SayMessageRequest = cloneref(game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"))
 local Players = cloneref(game:GetService("Players"))
 local lp = cloneref(Players.LocalPlayer)
 
